@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>  </html>
+<head>
+  <title>HTML CSS REVIEW</title>
+<style>
+  .red_button{background-color: red;
+    color:white
+  }
+  .yellow_button{background-color: yellow;
+    color: red; 
+  }
+.hello{background-color: red;
+  color: aqua;
+border: none;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius:10px;
+}
+.paragraph{
+  color: green;
+}
+.salinity{background-color: green;
+color:blue;
+  padding-top: 20px;
+
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border:none;
+border-radius:10px;
+
+
+}
+
+
+
+   </style>
+</head>
+
+
+<body>  
+  <script>
+     // this is a comment
+    alert('hello');
+    console.log(2+2);
+    console.log(45+59);
+    console.log("some" +"text")
+    
+    let CartQuantity = 0;
+var cva =77
+cva = cva + 44;
+console.log(variable5);
+
+
+
+    
+    </script>
+
+
+
+  <input type=text placeholder=habitant>
+<button class='hello' title="good job" onclick= "alert('yea you are on point');">hello</button>
+<p class="paragraph">paragraph of text <button class="salinity" title="nice idea">salinty</button></p>
+</body>
+
+<p>Cart Quantity</p>
+<button onclick= "console.log(`Cartquantity: ${CartQuantity}`)";>Show Quantity</button>
+
+
+
+<button onclick= "CartQuantity ++;
+console.log(`Cartquantity: ${CartQuantity}`);"
+>
+Add to Cart
+</button>
+<button onclick="CartQuantity += 2;
+console.log(`Cartquantity:${CartQuantity}`);
+
+">+2</button>
+<button onclick="CartQuantity +=3;
+console.log(`Cartquantity:${CartQuantity}`);
+">+3</button>
+<button onclick="CartQuantity = 0;
+console.log('Cart Was Reset');
+console.log(`Cartquantity:${CartQuantity}`);
+">Reset to Cart</button>
+<button onclick="CartQuantity--;
+console.log(`cart quantity:${CartQuantity}`);
+"> -1
+</button>

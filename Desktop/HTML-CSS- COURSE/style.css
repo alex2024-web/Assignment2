@@ -1,0 +1,69 @@
+body{
+box-sizing: border-box;
+margin:0;
+padding:0;
+
+
+}
+.logo{margin:40px,30px,40px;
+
+  
+}
+.logo-img{
+width:150px;
+height:75.35px;
+
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color:rgb(235, 225, 225);
+
+}
+.nav-list ul li{
+  margin: auto 10px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+
+.nav-list ul{margin:40px,30px,40px;
+  justify-content: space-between;
+color: black;
+  
+list-style:none;
+display:flex;
+}
+.apply{color:white;
+  background-color:green;
+  border-radius: 30px;
+  font-weight: bolder;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
